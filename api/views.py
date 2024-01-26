@@ -63,4 +63,4 @@ def taskDelete(request, pk):
     task = Task.objects.get(id=pk)
     task.delete()
 
-    return Response('Item succsesfully delete!')
+    return Response('Item successfully delete!')
